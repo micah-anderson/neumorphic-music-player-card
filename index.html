@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <!-- hEAD OF HTML DOCUMENT -->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Micah's Music Player</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/android-chrome-192x192.png"
+    />
+    <meta name="description" content="its just a music card" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- FONT AWESOME CDN (CTRL CLICK TO FOLLOW LINK)-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <!-- BODY OF HTML DOCUMENT -->
+  <body>
+    <!-- EVERYTHING IS INSIDE THIS CONTAINER -->
+    <div class="container">
+      <div class="music-player-card">
+        <div class="header">
+          <button class="search-button" title="Search">
+            <i class="fas fa-search"></i>
+          </button>
+          <h3 class="playlist-title">Micah's Playlist</h3>
+          <button class="power-button" title="Power">
+            <i class="fas fa-power-off"></i>
+          </button>
+        </div>
+        <div class="content">
+          <!-- SONG IMAGE SECTION -->
+          <div class="profile-image">
+            <img src="assets/profile-img.jpg" alt="Profile Image" />
+          </div>
+
+          <!-- TRACK TITLE & ARTIST NAME SECTION -->
+          <h2 class="track-title">unicorn</h2>
+          <h2 class="artist">APEX PHASER</h2>
+          <div class="progress-bar"></div>
+
+          <!-- THE BUTTON CONTROLS SECTION -->
+          <div class="controls">
+            <button class="rewind-button" title="Rewind">
+              <i class="fas fa-backward"></i>
+            </button>
+            <button class="play-button" title="Play">
+              <i class="fas fa-play"></i>
+            </button>
+            <button class="forward-button" title="Fast Forward">
+              <i class="fas fa-forward"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
